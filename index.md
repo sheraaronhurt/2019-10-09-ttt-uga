@@ -12,9 +12,7 @@ helper: [""]     # boxed, comma-separated list of helpers' names, like ["Marlyn 
 contact: ["sheraaron@carpentries.org"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 etherpad: https://pad.carpentries.org/2019-10-10-ttt-uga            # optional: URL for the workshop Etherpad if there is one
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
-locations: venue: "University of Georgia"
-    address: "TBD"
-    latlng: "33.948006,-83.377319"
+locations: 
    
   - venue: "University of Georgia"
     address: "TBD"
@@ -100,7 +98,7 @@ locations: venue: "University of Georgia"
   can use http://itouchmap.com/latlong.html to find the lat/long of an
   address.
   -->
-<h3 id="where">Where</h3>
+<h3 id="true">Where</h3>
 
 {% assign inperson = "false" %}
 {% for loc in page.locations %}
