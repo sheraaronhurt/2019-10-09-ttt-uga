@@ -14,9 +14,10 @@ etherpad: https://pad.carpentries.org/2019-10-10-ttt-uga            # optional: 
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 locations: 
    
-  - venue: "University of Georgia"
-    address: "TBD"
-    latlng: "33.948006,-83.377319"
+  - venue: "University of Georgia, Center For Applied Genetic Technology"
+    address: "111 Riverbend Rd, Athens, GA 30602"
+    address: "Room 128"
+    latlng: "33.931129,-83.364449"
 
 ---
 
